@@ -30,14 +30,14 @@ public class MariaXARun {
     static int txnUniqueID = 0;
 
 	// DB Connection Info1
-	final static String DB_FROM_ADDR = "192.168.103.204";
+	final static String DB_FROM_ADDR = "xxx,xxx,xxx.204";
 	final static int DB_FROM_PORT = 30244;
 	final static String DB_FROM_SID = "mariadb";
 	final static String DB_FROM_USER = "root";
 	final static String DB_FROM_PASSWORD = "root";
 
 	// DB Connection Info2
-	final static String DB_TO_ADDR = "192.168.103.13";
+	final static String DB_TO_ADDR = "xxx,xxx,xxx.13";
 	final static int DB_TO_PORT = 31197;
 	final static String DB_TO_SID = "mariadb";
 	final static String DB_TO_USER = "root";
@@ -236,7 +236,7 @@ public class MariaXARun {
 			throws SQLException, XAException {
 		MariaDbDataSource mads_sj = new MariaDbDataSource();
 
-		String url = "jdbc:mariadb://192.168.103.204:30244/test";
+		String url = "jdbc:mariadb://xxx,xxx,xxx.204:30244/test";
 
 		mads_sj.setUrl(url);
 		mads_sj.setUser(userId);
@@ -251,7 +251,7 @@ public class MariaXARun {
 			throws SQLException, XAException {
 		MariaDbDataSource mads_ce = new MariaDbDataSource();
 
-		String url = "jdbc:mariadb://192.168.103.204:31197/test";
+		String url = "jdbc:mariadb://xxx,xxx,xxx.204:31197/test";
 
 		mads_ce.setUrl(url);
 		mads_ce.setUser(userId);
