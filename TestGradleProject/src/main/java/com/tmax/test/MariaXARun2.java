@@ -26,12 +26,12 @@ public class MariaXARun2 {
 	/*
 	 * private final Logger logger = LoggerFactory.getLogger(this.getClass());
 	 * 
-	 * // DB Connection Info1 final static String DB_FROM_ADDR = "192.168.103.204";
+	 * // DB Connection Info1 final static String DB_FROM_ADDR = "xxx,xxx,xxx.204";
 	 * final static int DB_FROM_PORT = 30244; final static String DB_FROM_SID =
 	 * "mariadb"; final static String DB_FROM_USER = "root"; final static String
 	 * DB_FROM_PASSWORD = "root";
 	 * 
-	 * // DB Connection Info2 final static String DB_TO_ADDR = "192.168.103.13";
+	 * // DB Connection Info2 final static String DB_TO_ADDR = "xxx,xxx,xxx.13";
 	 * final static int DB_TO_PORT = 31197; final static String DB_TO_SID =
 	 * "mariadb"; final static String DB_TO_USER = "root"; final static String
 	 * DB_TO_PASSWORD = "root";
@@ -167,7 +167,7 @@ public class MariaXARun2 {
 	 * String userId, String password) throws SQLException, XAException {
 	 * MariaDbDataSource mads_sj = new MariaDbDataSource();
 	 * 
-	 * String url = "jdbc:mariadb://192.168.103.204:30244/test";
+	 * String url = "jdbc:mariadb://xxx,xxx,xxx.204:30244/test";
 	 * 
 	 * mads_sj.setUrl(url); mads_sj.setUser(userId); mads_sj.setPassword(password);
 	 * logger.info("SJ DB 연결 성공");
@@ -180,7 +180,7 @@ public class MariaXARun2 {
 	 * String userId, String password) throws SQLException, XAException {
 	 * MariaDbDataSource mads_ce = new MariaDbDataSource();
 	 * 
-	 * String url = "jdbc:mariadb://192.168.103.204:31197/test";
+	 * String url = "jdbc:mariadb://xxx,xxx,xxx.204:31197/test";
 	 * 
 	 * mads_ce.setUrl(url); mads_ce.setUser(userId); mads_ce.setPassword(password);
 	 * logger.info("CE DB 연결 성공");
