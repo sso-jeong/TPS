@@ -21,18 +21,18 @@ import com.tmax.tibero.jdbc.ext.TbXid;
 public class TiberoXARun {
 
 	// DB Connection Info1
-	final static String DB_FROM_ADDR = "192.168.103.13";
+	final static String DB_FROM_ADDR = "xxx.xxx.xxx.xxx";
 	final static int DB_FROM_PORT = 8629;
 	final static String DB_FROM_SID = "tibero";
-	final static String DB_FROM_USER = "po7dev_sj";
-	final static String DB_FROM_PASSWORD = "po7dev_sj";
+	final static String DB_FROM_USER = "user";
+	final static String DB_FROM_PASSWORD = "user";
 
 	// DB Connection Info2
-	final static String DB_TO_ADDR = "192.168.103.13";
+	final static String DB_TO_ADDR = "xxx.xxx.xxx";
 	final static int DB_TO_PORT = 8629;
 	final static String DB_TO_SID = "tibero";
-	final static String DB_TO_USER = "po7devdb_ce";
-	final static String DB_TO_PASSWORD = "po7devdb_ce";
+	final static String DB_TO_USER = "user";
+	final static String DB_TO_PASSWORD = "user";
 
 	// main  
 	@RequestMapping(value = "/", method = RequestMethod.GET)
